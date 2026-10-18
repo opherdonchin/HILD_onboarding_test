@@ -1,0 +1,124 @@
+{
+  "agents": [
+    "claude",
+    "codex",
+    "copilot"
+  ],
+  "authority": {
+    "decisions": "HILD/decisions/",
+    "journal": "HILD/journal/",
+    "plan": "HILD/plan.md",
+    "process": "HILD/process.md",
+    "understanding_map": "wiki/"
+  },
+  "files": {
+    ".agents/skills/hild-digest/SKILL.md": {
+      "sha256": "5e80a3f1e1422039ae4a40596564132b99800de5bd2140afd0193c94a9b45d1a"
+    },
+    ".agents/skills/hild-explain/SKILL.md": {
+      "sha256": "3e68041069a8f660e4aca6c63fb6790b466f62b0089e654b241414ff50295c52"
+    },
+    ".agents/skills/hild-integrate/SKILL.md": {
+      "sha256": "181bcca73d0438ba1a77e2b81884430556246246cb77b9f6c8ea935f9b6aaf52"
+    },
+    ".agents/skills/hild-integrate/first-install.md": {
+      "sha256": "8e559becec317cc9313dde86578de2605ea6e09da032d59ecbfc8666ccb2b738"
+    },
+    ".agents/skills/hild-integrate/github-access.md": {
+      "sha256": "342f0ad90e81eefa90850af98b686027d383945eb97bcad355b29f499a912cfb"
+    },
+    ".agents/skills/hild-journal/SKILL.md": {
+      "sha256": "56cbd6af6e46483688b2e1096e1f440392902aeaa3500283f02051960ef54351"
+    },
+    ".agents/skills/hild-orient/SKILL.md": {
+      "sha256": "ed99c2cece93acbc83fc23fa676772d1d53f3568150784ec3c1ee369a0918bb9"
+    },
+    ".agents/skills/hild-scope/SKILL.md": {
+      "sha256": "81266a8796ce6effdec9aea9a381a4929952d011712867902fdb93bad2e3af3c"
+    },
+    ".agents/skills/hild-scope/onboarding-scope.md": {
+      "sha256": "00aaed8e456e03748b5bd8b7159cd377af8de80b3402331e4b7c9aec7a1813d2"
+    },
+    ".agents/skills/hild-understood/SKILL.md": {
+      "sha256": "ef3c3c50e3aa73f2d781ea48ee5d06381b9b8ef8e4fa64a30dc4cffe3b83f8dd"
+    },
+    ".agents/skills/hild-understood/new-wiki.md": {
+      "sha256": "87968a1c6ea235b29c13cc8ae7c4a610eb8da5b2f38a668ff0a505b89fef7968"
+    },
+    ".claude/settings.json": {
+      "sha256": "55aa80d1a23a5de548e21a06f8713cce13b4db663ea03f2a9ca8da9e7b828b66"
+    },
+    ".claude/skills": {
+      "symlink": "../.agents/skills"
+    },
+    ".codex/hooks.json": {
+      "sha256": "07952d36ea509c3053d75192ed93388d9b0c08fffa4bbfdac71a940bc03b89d4"
+    },
+    ".github/hooks/hild.json": {
+      "sha256": "caa13bb7fd982338524378f0924cebf2f8febce4646d8d4514dcbe8204540eb4"
+    },
+    "AGENTS.md": {
+      "sha256": "6920d75b61e72ac603c1f2014e6316e0aa0ef3a963e671c76b0bc5b17b785e43"
+    },
+    "CLAUDE.md": {
+      "sha256": "968bde556dd65301e88f376243789f18e61e2215d3e6d8ed3ebbc02328625c12"
+    },
+    "HILD/README.md": {
+      "sha256": "865fe11808f7277dd4aa5cfdc4b2993caf47ce3e6c16ef9e8ec19420b5d40b85"
+    },
+    "HILD/agent-setup.md": {
+      "sha256": "3994edf85047f16c73b3799d9acdd0341ec31a944ab75197e7f3db1258073144"
+    },
+    "HILD/decisions/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "HILD/journal/2026-10-18.md": {
+      "sha256": "c2733f03c7f13147023a8e09ae03b7ea363c925c2cafcf4fdbf04211b1510529"
+    },
+    "HILD/plan.md": {
+      "sha256": "382e534ab3b163e5300b86980f80a9a8c420b76b4be3d0f756cfb6af9859064c"
+    },
+    "HILD/process.md": {
+      "sha256": "12e08b98f80369bb5acb33f32c3315aea30345a773d5533b62a6e9719e319971"
+    },
+    "HILD/scripts/install_hild.py": {
+      "sha256": "93a8add810f4bae28612958cafac0687ba0172c0a471f9ce4710f19f0bc39bb2"
+    },
+    "HILD/scripts/session_context.sh": {
+      "sha256": "0859d0b8be06228d2d60b4ec1b2e8eef1992962230ddc869a96682d405ccb48a"
+    },
+    "HILD/scripts/wiki_status.py": {
+      "sha256": "45c1d411260013a793224290be954d2cedcb68781b271cbf72c0b1e297b34877"
+    },
+    "HILD/templates/claude-settings.json": {
+      "sha256": "55aa80d1a23a5de548e21a06f8713cce13b4db663ea03f2a9ca8da9e7b828b66"
+    },
+    "HILD/templates/codex-hooks.json": {
+      "sha256": "07952d36ea509c3053d75192ed93388d9b0c08fffa4bbfdac71a940bc03b89d4"
+    },
+    "HILD/templates/copilot-hooks.json": {
+      "sha256": "caa13bb7fd982338524378f0924cebf2f8febce4646d8d4514dcbe8204540eb4"
+    },
+    "HILD/templates/decision-record.md": {
+      "sha256": "35ac7e46f6b28569fb48c67f47dd6b63126735185f7bb9001c3c0e402242c130"
+    },
+    "HILD/templates/journal-entry.md": {
+      "sha256": "ccb24ab99a8216dfed5325f0f986fb900ed65dc795868532d73726db82ea1420"
+    },
+    "HILD/templates/pr-explanation.md": {
+      "sha256": "b1863e4a750b46054a43a9e61ea0fcfabbfb3fd2bf039accd9d77568c18125e9"
+    },
+    "HILD/templates/scope-issue.md": {
+      "sha256": "be6c770bde93197f6ea85ade7700e3168fd247333ef54c1b64a287136c6f6960"
+    },
+    "HILD/templates/wiki-code-page.md": {
+      "sha256": "50bb0a62a6e775eae2ec06563592be91ac2b04c998eeb86a489c0c93ee958d0f"
+    },
+    "HILD/templates/wiki-page.md": {
+      "sha256": "b404ecf2d9fb7e71b161879fcdc19bd1e6f894ce58b71866148eb024f1a715ff"
+    }
+  },
+  "schema": 1,
+  "source_commit": "82f2780e79d88fbd35bbf5ccc6387495ad255e4d",
+  "source_repository": "https://github.com/Motor-Learning-Lab/HILD.git"
+}

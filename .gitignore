@@ -1,0 +1,5 @@
+# Local editor settings stay on each machine
+.vscode/
+
+# HILD's separate GitHub wiki checkout
+/wiki/
